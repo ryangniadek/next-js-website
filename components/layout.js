@@ -1,20 +1,18 @@
-import Head from 'next/head'
-import styles from './layout.module.css'
-import utilStyles from '../styles/utils.module.css'
-import Link from 'next/link'
+import Head from "next/head";
+import styles from "./layout.module.css";
+import utilStyles from "../styles/utils.module.css";
+import Link from "next/link";
+import Menu from "./menu";
 
-const name = 'Ryan Gniadek'
-export const siteTitle = 'Ryan Gniadek'
+const name = "Ryan Gniadek";
+export const siteTitle = "Ryan Gniadek";
 
 export default function Layout({ children, home }) {
   return (
     <div className={styles.container}>
       <Head>
         <link rel="icon" href="/favicon.ico" />
-        <meta
-          name="description"
-          content="Learn how to build a personal website using Next.js"
-        />
+        <meta name="description" content="Ryan Gniadek's personal website" />
         <meta
           property="og:image"
           content={`https://og-image.now.sh/${encodeURI(
@@ -52,6 +50,7 @@ export default function Layout({ children, home }) {
             </h2>
           </>
         )}
+        <Menu></Menu>
       </header>
       <main>{children}</main>
       {!home && (
@@ -62,5 +61,5 @@ export default function Layout({ children, home }) {
         </div>
       )}
     </div>
-  )
+  );
 }
