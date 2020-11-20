@@ -12,14 +12,29 @@ export default function Home({ allPostsData }) {
         <title>{siteTitle}</title>
       </Head>
       <section className={utilStyles.headingMd}>
-        <p>My name is Ryan Gniadek</p>
+        <h3>My name is Ryan Gniadek</h3>
         <p>
           I am a student at the Virginia Tech College of Engineering, working
-          towards a Bachelor of Science degree in Computer Science. I am looking
-          for opportunities in software engineering/development and data
-          science, especially in transportation or financial applications. This
-          is my website where you can see more information about me, check out
-          my projects and ventures, and read my blog posts.
+          towards a Bachelor of Science degree in Computer Science.
+          Academically, I am interested in software engineering, programming
+          languages, and computer systems.{" "}
+        </p>
+        <p>
+          On campus, I am the President of the{" "}
+          <Link href="https://vtluug.org">
+            <a>Linux and Unix Users Group</a>
+          </Link>{" "}
+          , a group that promotes *nix and free software on campus.
+          Additionally, I serve on the Executive Board of the{" "}
+          <Link href="https://www.sec.vt.edu">
+            <a>Student Engineers' Council</a>
+          </Link>
+          , a group that represents undergraduate students in the College of
+          Engineering.{" "}
+        </p>
+        <p>
+          This is my website where you can see more information about me, check
+          out my projects and ventures, and read my blog posts.
         </p>
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
