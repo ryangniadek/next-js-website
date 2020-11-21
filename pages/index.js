@@ -14,7 +14,7 @@ export default function Home({ allPostsData }) {
       <section className={utilStyles.headingMd}>
         <h3>My name is Ryan Gniadek</h3>
         <p>
-          <Link href={`/files/publickey.ryan@gniadek.net.asc`}><a>Click here to download the PGP public key I use to sign email from ryan[at]gniadek[dot]net</a></Link>
+          <Link href={`/files/publickey.ryan@gniadek.net.asc`}><a>Click here to download my PGP public key</a></Link>
         </p>
         <p>
           I am a student at the Virginia Tech College of Engineering, working
