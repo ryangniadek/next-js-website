@@ -15,9 +15,7 @@ export default function Layout({ children, home }) {
         <meta name="description" content="Ryan Gniadek's personal website" />
         <meta
           property="og:image"
-          content={`https://og-image.now.sh/${encodeURI(
-            siteTitle
-          )}.png?theme=light&md=0&fontSize=75px`}
+          content="https://og-image.now.sh/**Ryan%20Patrick%20Gniadek**.png?theme=dark&md=1&fontSize=100px&images=https%3A%2F%2Fassets.vercel.com%2Fimage%2Fupload%2Ffront%2Fassets%2Fdesign%2Fhyper-bw-logo.svg"
         />
         <meta name="og:title" content={siteTitle} />
         <meta name="twitter:card" content="summary_large_image" />
