@@ -4,7 +4,7 @@ import utilStyles from "../styles/utils.module.css";
 import Link from "next/link";
 import Menu from "./menu";
 
-const name = "Ryan Gniadek";
+const name = "Ryan P. Gniadek";
 export const siteTitle = "Ryan Gniadek";
 
 export default function Layout({ children, home }) {
