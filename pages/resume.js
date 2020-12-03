@@ -19,7 +19,15 @@ export default function Resume() {
         <h1>{pageTitle}</h1>
       </section>
       <section className={utilStyles.headingMd}>
-        <h2>Software Engineer Intern - Leidos</h2>
+        <h2>Software Development Engineer Intern - <Link href="https://www.mastercardservices.com/en"><a>Mastercard</a></Link></h2>
+        <p>
+          <b>
+            <i>Summer 2021</i>
+          </b>
+        </p>
+      </section>
+      <section className={utilStyles.headingMd}>
+        <h2>Software Engineer Intern - <Link href="https://www.leidos.com/markets/aviation"><a>Leidos</a></Link></h2>
         <p>
           <b>
             <i>Summer 2020</i>
@@ -35,7 +43,7 @@ export default function Resume() {
         </li>
       </section>
       <section className={utilStyles.headingMd}>
-        <h2>Systems Engineer Intern - Leidos</h2>
+        <h2>Systems Engineer Intern - <Link href="https://www.leidos.com/markets/aviation"><a>Leidos</a></Link></h2>
         <p>
           <b>
             <i>Summer 2019</i>
@@ -51,7 +59,7 @@ export default function Resume() {
         </li>
       </section>
       <section className={utilStyles.headingMd}>
-        <h2>Partner and Full-Stack Developer - Old Line Digital, LLC</h2>
+        <h2>Partner and Full-Stack Developer - <Link href="https://oldlinedigital.com/"><a>Old Line Digital, LLC</a></Link></h2>
         <p>
           <b>
             <i>December 2017 - Preseent</i>
