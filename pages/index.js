@@ -17,8 +17,8 @@ export default function Home({ allPostsData }) {
           <Link href={`/files/publickey.ryan@gniadek.net.asc`}><a>Click here to download my PGP public key</a></Link>
         </p>
         <p>
-          I am a student at the Virginia Tech College of Engineering, working
-          towards a Bachelor of Science degree in Computer Science.
+          I am a student at the Virginia Tech <Link href="https://eng.vt.edu/"><a>College of Engineering</a></Link>, working
+          towards a Bachelor of Science degree in <Link href="https://cs.vt.edu/"><a>Computer Science</a></Link>.
           Academically, I am interested in software engineering, programming
           languages, and computer systems.{" "}
         </p>
