@@ -51,8 +51,8 @@ export default function Contact() {
           </Link>
         </p>
         <p>
-          I am also on Signal and WhatsApp. If you do not have my cell phone
-          number you can ask for it via email.
+          I am also on Signal. Send me an email if you do not have my cell phone
+          number.
         </p>
       </section>
     </Layout>
