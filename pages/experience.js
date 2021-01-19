@@ -17,7 +17,12 @@ export default function Resume() {
         <h1>{pageTitle}</h1>
       </section>
       <section className={utilStyles.headingMd}>
-        <h2>Software Development Engineer Intern - <Link href="https://www.mastercardservices.com/en"><a>Mastercard</a></Link></h2>
+        <h2>
+          Software Development Engineer Intern -{" "}
+          <Link href="https://www.mastercardservices.com/en">
+            <a>Mastercard</a>
+          </Link>
+        </h2>
         <p>
           <b>
             <i>Summer 2021</i>
@@ -25,7 +30,12 @@ export default function Resume() {
         </p>
       </section>
       <section className={utilStyles.headingMd}>
-        <h2>Software Engineer Intern - <Link href="https://www.leidos.com/markets/aviation"><a>Leidos</a></Link></h2>
+        <h2>
+          Software Engineer Intern -{" "}
+          <Link href="https://www.leidos.com/markets/aviation">
+            <a>Leidos</a>
+          </Link>
+        </h2>
         <p>
           <b>
             <i>Summer 2020</i>
@@ -41,7 +51,12 @@ export default function Resume() {
         </li>
       </section>
       <section className={utilStyles.headingMd}>
-        <h2>Systems Engineer Intern - <Link href="https://www.leidos.com/markets/aviation"><a>Leidos</a></Link></h2>
+        <h2>
+          Systems Engineer Intern -{" "}
+          <Link href="https://www.leidos.com/markets/aviation">
+            <a>Leidos</a>
+          </Link>
+        </h2>
         <p>
           <b>
             <i>Summer 2019</i>
@@ -57,7 +72,12 @@ export default function Resume() {
         </li>
       </section>
       <section className={utilStyles.headingMd}>
-        <h2>Partner and Full-Stack Developer - <Link href="https://oldlinedigital.com/"><a>Old Line Digital, LLC</a></Link></h2>
+        <h2>
+          Partner and Full-Stack Developer -{" "}
+          <Link href="https://oldlinedigital.com/">
+            <a>Old Line Digital, LLC</a>
+          </Link>
+        </h2>
         <p>
           <b>
             <i>December 2017 - Preseent</i>
@@ -67,6 +87,14 @@ export default function Resume() {
           Collaborated with businesses and nonprofits to develop an online
           marketing strategy and website solution
         </li>
+      </section>
+      <section>
+        <br></br>
+        <p>
+          <Link href="/resume">
+            <a>Click here to download a copy of my resume (PDF)</a>
+          </Link>
+        </p>
       </section>
     </Layout>
   );
