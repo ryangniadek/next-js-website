@@ -74,7 +74,7 @@ export default function Resume() {
       <section className={utilStyles.headingMd}>
         <h2>
           Partner and Full-Stack Developer -{" "}
-          <Link href="https://oldlinedigital.com/">
+          <Link href="/services">
             <a>Old Line Digital, LLC</a>
           </Link>
         </h2>
