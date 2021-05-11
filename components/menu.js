@@ -1,7 +1,12 @@
 import Link from "next/link";
+import { ButtonGroup, Button } from "@material-ui/core";
 
 export default function Menu() {
   return (
-          <p><Link href="/"><a>Home</a></Link> <Link href="/projects"><a>Projects</a></Link> <Link href="/experience"><a>Experience</a></Link> <Link href="/services"><a>Services</a></Link> <Link href="/contact"><a>Contact Me</a></Link></p>
+    <ButtonGroup variant="text" aria-label="text button group">
+      <Button href="/">Home</Button>
+      <Button href="/projects">Home</Button>
+      <Button href="/">Home</Button>
+    </ButtonGroup>
   );
 }
