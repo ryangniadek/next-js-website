@@ -28,6 +28,12 @@ export default function Resume() {
             <i>Summer 2021</i>
           </b>
         </p>
+        <li>
+          Contributed to a Kubernetes operator designed for compliance with Mastercard-specific deployment patterns
+        </li>
+        <li>
+          Modernized the reboot application used at global Mastercard data centers and Azure cloud instances
+        </li>
       </section>
       <section className={utilStyles.headingMd}>
         <h2>
