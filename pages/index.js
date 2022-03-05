@@ -27,7 +27,7 @@ export default function Home({ allPostsData }) {
         </p>
         <p>
           On campus, I serve as the Director of Finance for the{" "}
-          <Link href="https://www.sec.vt.edu">
+          <Link href="https://www.sec.vt.edu/About/RyanGniadek.html">
             <a>Student Engineers' Council</a>
           </Link>
           , a group that represents undergraduate students in the College of
