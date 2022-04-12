@@ -26,18 +26,12 @@ export default function Home({ allPostsData }) {
           languages, and computer systems.{" "}
         </p>
         <p>
-          On campus, I serve as the Director of Finance for the{" "}
+          On campus, I serve as the President of the{" "}
           <Link href="https://www.sec.vt.edu/About/RyanGniadek.html">
             <a>Student Engineers' Council</a>
           </Link>
-          , a group that represents undergraduate students in the College of
-          Engineering. I administer our budget with approximately $500k in
-          annual revenue and oversee our endowments with a combined principal of
-          $2.2M. Additionally, I am the President of the{" "}
-          <Link href="https://vtluug.org">
-            <a>Linux and Unix Users Group</a>
-          </Link>
-          , a group that promotes *nix and free software on campus.
+          , a group that serves undergraduate students in the College of
+          Engineering. As President, I oversee our fourteen member Executive Board, manage 300+ corporate relationships, and serve as the external representative for the organization by acting as our spokesperson and facilitating relationships across the University.
         </p>
         <p>
           This is my website where you can see more information about me, check
