@@ -26,12 +26,25 @@ export default function Home({ allPostsData }) {
           languages, and computer systems.{" "}
         </p>
         <p>
-          On campus, I serve as the President of the{" "}
+          On campus, I am the President of the{" "}
           <Link href="https://www.sec.vt.edu/About/RyanGniadek.html">
             <a>Student Engineers' Council</a>
           </Link>
           , a group that serves undergraduate students in the College of
-          Engineering. As President, I oversee our fourteen member Executive Board, manage 300+ corporate relationships, and serve as the external representative for the organization by acting as our spokesperson and facilitating relationships across the University.
+          Engineering. As President, I oversee our fourteen member Executive Board, 
+          manage 300+ corporate relationships, and serve as the external representative for 
+          the organization by acting as our spokesperson and facilitating relationships across the University.
+          The SEC supports VT Engineering in various ways including the{" "}
+          <Link href="https://expo.sec.vt.edu">
+            <a>Engineering Expo </a>
+          </Link>
+          which is the largest career fair at Virginia Tech and the second largest student-run career fair in the nation,
+          giving back over $280k every year to support student initiatives, and increasing engagement with the College by 
+          hosting marquee events such as the{" "}
+          <Link href="https://twitter.com/VTEngineering/status/1498466372279488514">
+            <a>Engineers' Ball </a>
+          </Link>
+          which is a new annual tradition at Virginia Tech.
         </p>
         <p>
           This is my website where you can see more information about me, check
