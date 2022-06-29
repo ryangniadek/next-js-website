@@ -27,7 +27,7 @@ export default function Home({ allPostsData }) {
         </p>
         <p>
           On campus, I am the President of the{" "}
-          <Link href="https://www.sec.vt.edu/About/RyanGniadek.html">
+          <Link href="https://www.sec.vt.edu/about/leadership/RyanGniadek.html">
             <a>Student Engineers' Council</a>
           </Link>
           , a group that serves undergraduate students in the College of
@@ -60,9 +60,9 @@ export default function Home({ allPostsData }) {
               </Link>
               <small className={utilStyles.lightText}>
                 <text><br/>Ryan Gniadek, Godmar Back, Kirk Cameron, Margaret Ellis
-                <br/>ASEE 2022 Annual Conference
+                <br/>ASEE 2022 Annual Conference{" "}
                 <Link href="/files/rgniadek_ASEE_presentation_2022.pdf">
-                <a> (Presentation)</a>
+                <a>(Presentation)</a>
                 </Link></text>
               </small>
             </li>
