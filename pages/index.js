@@ -31,15 +31,15 @@ export default function Home({ allPostsData }) {
             <a>Student Engineers' Council</a>
           </Link>
           , a group that serves undergraduate students in the College of
-          Engineering. As President, I oversee our fourteen member Executive Board, 
-          manage 300+ corporate relationships, and serve as the external representative for 
+          Engineering. As President, I oversee our fourteen member Executive Board,
+          manage 300+ corporate relationships, and serve as the external representative for
           the organization by acting as our spokesperson and facilitating relationships across the University.
           The SEC supports VT Engineering in various ways including the{" "}
           <Link href="https://expo.sec.vt.edu">
             <a>Engineering Expo </a>
           </Link>
           which is the largest career fair at Virginia Tech and the second largest student-run career fair in the nation,
-          giving back over $280k every year to support student initiatives, and increasing engagement with the College by 
+          giving back over $280k every year to support student initiatives, and increasing engagement with the College by
           hosting marquee events such as the{" "}
           <Link href="https://twitter.com/VTEngineering/status/1498466372279488514">
             <a>Engineers' Ball </a>
@@ -56,8 +56,15 @@ export default function Home({ allPostsData }) {
         <ul className={utilStyles.list}>
             <li className={utilStyles.listItem}>
               <Link href="#">
-                <a>Test</a>
+                <a>Integrating DevOps to Enhance Student Experience in an Undergraduate Research Project</a>
               </Link>
+              <small className={utilStyles.lightText}>
+                <text><br/>Ryan Gniadek, Godmar Back, Kirk Cameron, Margaret Ellis
+                <br/>ASEE 2022 Annual Conference
+                <Link href="/files/rgniadek_ASEE_presentation_2022.pdf">
+                <a> (Presentation)</a>
+                </Link></text>
+              </small>
             </li>
         </ul>
       </section>
