@@ -55,7 +55,7 @@ export default function Home({ allPostsData }) {
         <h2 className={utilStyles.headingLg}>Publications</h2>
         <ul className={utilStyles.list}>
             <li className={utilStyles.listItem}>
-              <Link href="#">
+              <Link href="https://peer.asee.org/40747">
                 <a>Integrating DevOps to Enhance Student Experience in an Undergraduate Research Project</a>
               </Link>
               <small className={utilStyles.lightText}>
