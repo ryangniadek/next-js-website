@@ -5,7 +5,8 @@ date: '2021-03-22'
 
 Docker is the most popular engine for running Linux containers which are an increasingly popular way to deploy applications. Many people use containers but fewer people know what a container actually does. I hope you enjoy this short talk I gave to the [Linux and Unix Users Group at Virginia Tech](https://vtluug.org) where I overview what actually happens when you type `docker run`.
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/a6Hb8mWKLZY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[Click here to watch the talk](https://www.youtube.com/watch?v=a6Hb8mWKLZY)
+[![](https://img.youtube.com/vi/a6Hb8mWKLZY/0.jpg)](https://www.youtube.com/watch?v=a6Hb8mWKLZY)
 
 **A few key points from the talk:**
 
@@ -18,7 +19,7 @@ Docker is the most popular engine for running Linux containers which are an incr
         - uts: dedicated hostname
         - ipc: dedicated memory
 - After `cgroups` were added to the Linux kernel in 2007, several projects emerged that took advantage of them by creating containerization processes
-    - `LXC` — “Linux Containers” 
+    - `LXC` — “Linux Containers”
     - `LMCTFY` — Google’s internal container stack pre-Docker
     - `systemd-nspawn` — “chroot on steroids,” packaged with systemd
     - `rkt` — Dameonless OCI-compliant runtime from CoreOS
@@ -35,4 +36,3 @@ Docker is the most popular engine for running Linux containers which are an incr
 - [Docker is NOT a Hypervisor](https://blog.mikesir87.io/2017/05/docker-is-not-a-hypervisor/) by Michael Irwin
 - [Containers from Scratch](https://ericchiang.github.io/post/containers-from-scratch/) by Eric Chiang
 - [A Comprehensive Container Runtime Comparison](https://www.capitalone.com/tech/cloud/container-runtime/) by Evan Baker
-
