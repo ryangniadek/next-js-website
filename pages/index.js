@@ -22,12 +22,11 @@ export default function Home({ allPostsData }) {
           <Link href="https://cs.vt.edu/">
             <a>Computer Science</a>
           </Link>
-          . Academically, I am interested in software engineering, programming
-          languages, and computer systems.{" "}
+          . Academically, I am interested in software engineering, digital education, and computer systems.{" "}
         </p>
         <p>
           On campus, I am the President of the{" "}
-          <Link href="https://www.sec.vt.edu/about/leadership/RyanGniadek.html">
+          <Link href="https://sec.vt.edu/about/leadership/RyanGniadek.html">
             <a>Student Engineers' Council</a>
           </Link>
           , a group that serves undergraduate students in the College of
@@ -35,11 +34,11 @@ export default function Home({ allPostsData }) {
           manage 300+ corporate relationships, and serve as the external representative for
           the organization by acting as our spokesperson and facilitating relationships across the University.
           The SEC supports VT Engineering in various ways including the{" "}
-          <Link href="https://expo.sec.vt.edu">
+          <Link href="https://sec.vt.edu/expo">
             <a>Engineering Expo </a>
           </Link>
           which is the largest career fair at Virginia Tech and the second largest student-run career fair in the nation,
-          giving back over $280k every year to support student initiatives, and increasing engagement with the College by
+          giving back over $300k every year to support student initiatives, and increasing engagement with the College by
           hosting marquee events such as the{" "}
           <Link href="https://twitter.com/VTEngineering/status/1498466372279488514">
             <a>Engineers' Ball </a>
@@ -48,7 +47,7 @@ export default function Home({ allPostsData }) {
         </p>
         <p>
           This is my website where you can see more information about me, check
-          out my projects and ventures, and read my blog posts.
+          out my projects, and read my blog posts.
         </p>
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
