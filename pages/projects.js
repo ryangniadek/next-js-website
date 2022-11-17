@@ -17,6 +17,31 @@ export default function Projects() {
         <h1>{pageTitle}</h1>
       </section>
       <section className={utilStyles.headingMd}>
+        <h2>CS 2104 Assignment: Getting Started with Containers</h2>
+        <p>
+          In conjunction with <Link href="https://people.cs.vt.edu/maellis1/">
+          <a>Professor Margaret Ellis</a></Link>, I developed an assignment for
+          {" "}<Link href="https://cs.vt.edu/Undergraduate/courses/CS2104.html">CS
+          2104 (Problem Solving in CS)</Link> at Virginia Tech. The assignment
+          is designed to introduce students to containers, the Docker command
+          line, and deploying cloud services.
+        </p>
+        <p>
+          The assignment is composed of the following parts:
+          <ul>
+            <li>Distinguishing between a container and a virtual machine</li>
+            <li>Running a container image from a public registry</li>
+            <li>Building a container image from a Dockerfile</li>
+            <li>Pushing a container image to a GitLab registry</li>
+            <li>Deploying a containerized application to the Azure cloud</li>
+          </ul>
+        </p>
+        <p>
+          Through this assignment, students gain reinforcement of the practical skills and problem solving heuristics
+          they are supposed to learn in CS 2104. I am happy to provide the assignment instructions <Link href="mailto:rgniadek@vt.edu">via email</Link>.
+        </p>
+      </section>
+      <section className={utilStyles.headingMd}>
         <h2>Research: CS Genome Project</h2>
         <p>
           I am involved with the{" "}
