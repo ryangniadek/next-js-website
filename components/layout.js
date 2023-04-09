@@ -2,6 +2,7 @@ import Head from "next/head";
 import styles from "./layout.module.css";
 import utilStyles from "../styles/utils.module.css";
 import Link from "next/link";
+import Image from 'next/image';
 import Menu from "./menu";
 
 const name = "Ryan P. Gniadek";
@@ -22,15 +23,18 @@ export default function Layout({ children, home }) {
       </Head>
       <header className={styles.header}>
       <>
-        <Link href="/">
-          <a>
-            <img
-              src="/images/profile.jpg"
-              className={`${styles.headerImage} ${utilStyles.borderCircle}`}
-              alt={name}
-            />
-          </a>
-        </Link>
+      <Link href="/">
+        <a>
+          <Image
+            src="/images/profile.jpg"
+            className={`${styles.headerImage} ${utilStyles.borderCircle}`}
+            alt={name}
+            width="110"
+            height="110"
+            quality={100}
+          />
+        </a>
+      </Link>
         <h2 className={utilStyles.headingLg}>
           <Link href="/">
             <a className={utilStyles.colorInherit}>{name}</a>
