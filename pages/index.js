@@ -14,36 +14,14 @@ export default function Home({ allPostsData }) {
       <section className={utilStyles.headingMd}>
         <h3>My name is Ryan Gniadek</h3>
         <p>
-          I am a student at the Virginia Tech{" "}
-          <Link href="https://eng.vt.edu/">
-            <a>College of Engineering</a>
-          </Link>
-          , working towards a Bachelor of Science degree in{" "}
-          <Link href="https://cs.vt.edu/">
-            <a>Computer Science</a>
-          </Link>
-          . Academically, I am interested in software engineering, digital education, and computer systems.{" "}
+          I like computer systems, infrastructure, DevOps, and software engineering.{" "}
         </p>
         <p>
-          On campus, I am the President of the{" "}
-          <Link href="https://sec.vt.edu/about/leadership/RyanGniadek.html">
+        After my graduation from <Link href="https://eng.vt.edu/"><a>Virginia Tech</a></Link>, I am working at <Link href="www.redhat.com"><a>Red Hat</a></Link> helping clients with infrastructure and software engineering problems. I've been involved in helping modernize <Link href="https://cs.vt.edu/">
+            <a>Computer Science</a>
+          </Link> curriculum at Virginia Tech, broadening participation in <Link href="https://csgenome.org/about"><a>undergraduate research</a></Link>, and outreach for the College as President of the <Link href="https://sec.vt.edu/about/leadership/RyanGniadek.html">
             <a>Student Engineers' Council</a>
-          </Link>
-          , a group that serves undergraduate students in the College of
-          Engineering. As President, I oversee our fourteen member Executive Board,
-          manage 300+ corporate relationships, and serve as the external representative for
-          the organization by acting as our spokesperson and facilitating relationships across the University.
-          The SEC supports VT Engineering in various ways including the{" "}
-          <Link href="https://sec.vt.edu/expo">
-            <a>Engineering Expo </a>
-          </Link>
-          which is the largest career fair at Virginia Tech and the second largest student-run career fair in the nation,
-          giving back over $300k every year to support student initiatives, and increasing engagement with the College by
-          hosting marquee events such as the{" "}
-          <Link href="https://twitter.com/VTEngineering/status/1498466372279488514">
-            <a>Engineers' Ball </a>
-          </Link>
-          which is a new annual tradition at Virginia Tech.
+          </Link>.
         </p>
         <p>
           This is my website where you can see more information about me, check
