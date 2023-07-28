@@ -17,15 +17,18 @@ export default function Home({ allPostsData }) {
           I like computer systems, infrastructure, DevOps, and software engineering.{" "}
         </p>
         <p>
-        After my graduation from <Link href="https://eng.vt.edu/"><a>Virginia Tech</a></Link>, I am working at <Link href="www.redhat.com"><a>Red Hat</a></Link> helping clients with infrastructure and software engineering problems. I've been involved in helping modernize <Link href="https://cs.vt.edu/">
-            <a>Computer Science</a>
-          </Link> curriculum at Virginia Tech, broadening participation in <Link href="https://csgenome.org/about"><a>undergraduate research</a></Link>, and outreach for the College as President of the <Link href="https://sec.vt.edu/about/leadership/RyanGniadek.html">
-            <a>Student Engineers' Council</a>
-          </Link>.
+          I work as a Software Consultant at <Link href="https://www.redhat.com"><a>Red Hat</a></Link> helping clients with infrastructure and DevOps problems. As part of my job, I have also earned numerous <Link href="/certifications"><a>certifications</a></Link> in infrastructure and cloud technologies.
+        </p>
+        <p>
+          My undergraduate degree is in <Link href="https://cs.vt.edu"><a>Computer Science</a></Link> from <Link href="https://eng.vt.edu"><a>Virginia Tech</a></Link>. During my time there, I was involved as President of the <Link href="https://sec.vt.edu/">
+          <a>Student Engineers' Council</a></Link> and an active participant in the Computer Science Department (both in teaching and <Link href="https://cs.vt.edu/research/research-areas/systems/burgs"><a>research</a></Link>).
         </p>
         <p>
           This is my website where you can see more information about me, check
           out my projects, and read my blog posts.
+        </p>
+        <p>
+          - rpg
         </p>
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
