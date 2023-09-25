@@ -18,6 +18,25 @@ export default function Resume() {
       </section>
       <section className={utilStyles.headingMd}>
         <h2>
+          Software Consultant -{" "}
+          <Link href="https://redhat.com/">
+            <a>Red Hat</a>
+          </Link>
+        </h2>
+        <p>
+          <b>
+            <i>2023 - present</i>
+          </b>
+        </p>
+        <li>
+          Advising Red Hat clients on automation, DevOps, and infrastructure challenges
+        </li>
+        <li>
+          Skilled with Red Hat Ansible Automation Platform, Red Hat Enterprise Linux, and OpenShift
+        </li>
+      </section>
+      <section className={utilStyles.headingMd}>
+        <h2>
           Software Engineer Intern -{" "}
           <Link href="https://www.anedot.com/careers">
             <a>Anedot</a>
@@ -28,12 +47,9 @@ export default function Resume() {
             <i>Summer 2022</i>
           </b>
         </p>
-        {/* <li>
-          Contributed to a Kubernetes operator designed for compliance with Mastercard-specific deployment patterns
-        </li>
         <li>
-          Modernized the reboot application used at global Mastercard data centers and Azure cloud instances
-        </li> */}
+          Backend engineer working on payments and infrastructure
+        </li>
       </section>
       <section className={utilStyles.headingMd}>
         <h2>
