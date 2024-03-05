@@ -9,13 +9,13 @@ module.exports = {
         {
           source: '/playlist',
           destination: 'https://open.spotify.com/playlist/2yigOU680KQPLpe1Eu0C9y?si=7bb9c4332bc44609',
-          permanent: true,	
+          permanent: true,
         },
         {
           source: '/calendar',
           destination: 'https://calendly.com/rgniadek',
-          permanent: true,	
-        }, 
+          permanent: true,
+        },
         {
           source: '/certs',
           destination: 'https://credly.com/users/ryangniadek',
@@ -24,6 +24,11 @@ module.exports = {
         {
           source: '/certifications',
           destination: '/certs',
+          permanent: true,
+        },
+        {
+          source: '/signal',
+          destination: 'https://signal.me/#eu/k6v2O6CTIjULhZRkfs03PAk3yiVRxlB_Ipgvjw35jLUq22Mt4fRF37gNGxW5opaT',
           permanent: true,
         },
       ]

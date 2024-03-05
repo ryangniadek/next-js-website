@@ -27,6 +27,12 @@ export default function Contact() {
           </Link>
         </p>
         <p>
+          Signal:{" "}
+          <Link href="/signal">
+            <a>@ryan.96</a>
+          </Link>
+        </p>
+        <p>
           Facebook:{" "}
           <Link href="https://facebook.com/gniadekryan">
             <a>Ryan Gniadek</a>
@@ -49,10 +55,6 @@ export default function Contact() {
           <Link href="https://linkedin.com/in/ryangniadek">
             <a>in:ryangniadek</a>
           </Link>
-        </p>
-        <p>
-          I am also on Signal. Send me an email if you do not have my cell phone
-          number.
         </p>
       </section>
     </Layout>
