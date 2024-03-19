@@ -13,7 +13,7 @@ module.exports = {
         },
         {
           source: '/calendar',
-          destination: 'https://calendly.com/rgniadek',
+          destination: 'https://outlook.office.com/bookwithme/user/f41f8c58f8a34da3bb4f297f82d59962@gniadek.net',
           permanent: true,
         },
         {
