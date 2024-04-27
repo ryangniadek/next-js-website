@@ -17,11 +17,12 @@ export default function Home({ allPostsData }) {
           I like computer systems, infrastructure, DevOps, and software engineering.{" "}
         </p>
         <p>
-          I work as a Software Consultant at <Link href="https://www.redhat.com"><a>Red Hat</a></Link> helping clients with infrastructure and DevOps problems. As part of my job, I have also earned numerous <Link href="/certifications"><a>certifications</a></Link> in infrastructure and cloud technologies.
+          I work as a Software Consultant at <Link href="https://www.redhat.com"><a>Red Hat</a></Link> helping clients with automation, infrastructure, and DevOps problems. As part of my job, I have also earned numerous <Link href="/certifications"><a>certifications</a></Link> in infrastructure and cloud technologies.
+          Using these skills, I lead customer projects to transform their IT automation practices.
         </p>
         <p>
-          My undergraduate degree is in <Link href="https://cs.vt.edu"><a>Computer Science</a></Link> from <Link href="https://eng.vt.edu"><a>Virginia Tech</a></Link>. During my time there, I was involved as President of the <Link href="https://sec.vt.edu/">
-          <a>Student Engineers' Council</a></Link> and an active participant in the Computer Science Department (both in teaching and <Link href="https://cs.vt.edu/research/research-areas/systems/burgs"><a>research</a></Link>).
+          My undergraduate degree is in <Link href="https://cs.vt.edu"><a>Computer Science</a></Link> from <Link href="https://eng.vt.edu"><a>Virginia Tech</a></Link>.
+          I am still involved with the college as a board member on the Young Alumni Council for the College of Engineering. I was appointed to a four-year term in 2023.
         </p>
         <p>
           This is my website where you can see more information about me, check
