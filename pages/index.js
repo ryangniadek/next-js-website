@@ -22,7 +22,7 @@ export default function Home({ allPostsData }) {
         </p>
         <p>
           My undergraduate degree is in <Link href="https://cs.vt.edu"><a>Computer Science</a></Link> from <Link href="https://eng.vt.edu"><a>Virginia Tech</a></Link>.
-          I am still involved with the college as a board member on the Young Alumni Council for the College of Engineering. I was appointed to a four-year term in 2023.
+          I am still involved with the college as a board member on the Young Alumni Council for the College of Engineering. I was appointed to a four-year term in 2024.
         </p>
         <p>
           This is my website where you can see more information about me, check
