@@ -20,7 +20,7 @@ export default function Resume() {
         <h2>
           Software Consultant -{" "}
           <Link href="https://redhat.com/">
-            <a>Red Hat</a>
+            Red Hat
           </Link>
         </h2>
         <p>
@@ -39,7 +39,7 @@ export default function Resume() {
         <h2>
           Software Engineer Intern -{" "}
           <Link href="https://www.anedot.com/careers">
-            <a>Anedot</a>
+            Anedot
           </Link>
         </h2>
         <p>
@@ -55,7 +55,7 @@ export default function Resume() {
         <h2>
           Software Development Engineer Intern -{" "}
           <Link href="https://www.mastercardservices.com/en">
-            <a>Mastercard</a>
+            Mastercard
           </Link>
         </h2>
         <p>
@@ -74,7 +74,7 @@ export default function Resume() {
         <h2>
           Software Engineer Intern -{" "}
           <Link href="https://www.leidos.com/markets/aviation">
-            <a>Leidos</a>
+            Leidos
           </Link>
         </h2>
         <p>
@@ -95,7 +95,7 @@ export default function Resume() {
         <h2>
           Systems Engineer Intern -{" "}
           <Link href="https://www.leidos.com/markets/aviation">
-            <a>Leidos</a>
+            Leidos
           </Link>
         </h2>
         <p>
@@ -116,7 +116,7 @@ export default function Resume() {
         <h2>
           Partner and Full-Stack Developer -{" "}
           <Link href="/services">
-            <a>Old Line Digital, LLC</a>
+            Old Line Digital, LLC
           </Link>
         </h2>
         <p>
@@ -133,7 +133,7 @@ export default function Resume() {
         <br></br>
         <p>
           <Link href="/resume">
-            <a>Click here to download a copy of my resume (PDF)</a>
+            Click here to download a copy of my resume (PDF)
           </Link>
         </p>
       </section>

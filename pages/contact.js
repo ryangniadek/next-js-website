@@ -23,37 +23,37 @@ export default function Contact() {
         <p>
           Email:{" "}
           <Link href="mailto:ryan@gniadek.net">
-            <a>ryan@gniadek.net</a>
+            ryan@gniadek.net
           </Link>
         </p>
         <p>
           Signal:{" "}
           <Link href="/signal">
-            <a>@ryan.96</a>
+            @ryan.96
           </Link>
         </p>
         <p>
           Facebook:{" "}
           <Link href="https://facebook.com/gniadekryan">
-            <a>Ryan Gniadek</a>
+            Ryan Gniadek
           </Link>
         </p>
         <p>
           Twitter:{" "}
           <Link href="https://twitter.com/ryangniadek">
-            <a>@ryangniadek</a>
+            @ryangniadek
           </Link>
         </p>
         <p>
           Instagram:{" "}
           <Link href="https://instagram.com/ryangniadek">
-            <a>@ryangniadek</a>
+            @ryangniadek
           </Link>
         </p>
         <p>
           LinkedIn:{" "}
           <Link href="https://linkedin.com/in/ryangniadek">
-            <a>in:ryangniadek</a>
+            in:ryangniadek
           </Link>
         </p>
       </section>

@@ -20,7 +20,7 @@ export default function Projects() {
         <h2>CS 2104 Assignment: Getting Started with Containers</h2>
         <p>
           In conjunction with <Link href="https://people.cs.vt.edu/maellis1/">
-          <a>Professor Margaret Ellis</a></Link>, I developed an assignment for
+          Professor Margaret Ellis</Link>, I developed an assignment for
           {" "}<Link href="https://cs.vt.edu/Undergraduate/courses/CS2104.html">CS
           2104 (Problem Solving in CS)</Link> at Virginia Tech. The assignment
           is designed to introduce students to containers, the Docker command
@@ -46,7 +46,7 @@ export default function Projects() {
         <p>
           I am involved with the{" "}
           <Link href="https://csgenome.org/">
-            <a>Computer Systems Genome Project</a>
+            Computer Systems Genome Project
           </Link>{" "}
           at Virginia Tech. CSG is the first scientific effort to catalog the
           lineage of computer system performance over time. My contributions to
@@ -75,7 +75,7 @@ export default function Projects() {
         <p>
           Check out our repository{" "}
           <Link href="https://github.com/matt-davison/vibecheck">
-            <a>here. </a>
+            here. 
           </Link>
           Created at the 2020 SheHacksVT Hackathon with Matt Davison, Ben
           Bernstein, and Nate Usher.
@@ -101,11 +101,11 @@ export default function Projects() {
         <p>
           Check out our repository{" "}
           <Link href="https://github.com/ryangniadek/safe-ryde-js">
-            <a>here. </a>
+            here. 
           </Link>
           You can access the live web app{" "}
           <Link href="https://saferyde.tech">
-            <a>here. </a>
+            here. 
           </Link>
           Created at the VTHacks 7 Hackathon with Ben Bernstein.
         </p>

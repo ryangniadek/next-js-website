@@ -24,20 +24,20 @@ export default function Layout({ children, home }) {
       <header className={styles.header}>
       <>
       <Link href="/">
-        <a>
-          <Image
-            src="/images/profile.jpg"
-            className={`${styles.headerImage} ${utilStyles.borderCircle}`}
-            alt={name}
-            width="110"
-            height="110"
-            quality={100}
-          />
-        </a>
+
+        <Image
+          src="/images/profile.jpg"
+          className={`${styles.headerImage} ${utilStyles.borderCircle}`}
+          alt={name}
+          width="110"
+          height="110"
+          quality={100}
+        />
+
       </Link>
         <h2 className={utilStyles.headingLg}>
-          <Link href="/">
-            <a className={utilStyles.colorInherit}>{name}</a>
+          <Link href="/" className={utilStyles.colorInherit}>
+            {name}
           </Link>
         </h2>
       </>
@@ -74,7 +74,7 @@ export default function Layout({ children, home }) {
       {!home && (
         <div className={styles.backToHome}>
           <Link href="/">
-            <a>← Back to home</a>
+            ← Back to home
           </Link>
         </div>
       )}

@@ -17,10 +17,10 @@ export default function Home({ allPostsData }) {
           I like computer systems, infrastructure, DevOps, and software engineering.{" "}
         </p>
         <p>
-          I work as a Solutions Architect at <Link href="https://www.celonis.com"><a>Celonis</a></Link>, responsible for the the technical onboarding experience of our customers. Previously, I was a Software Consultant at <Link href="https://www.redhat.com"><a>Red Hat</a></Link> leading customer projects to transform their IT automation practices.
+          I work as a Solutions Architect at <Link href="https://www.celonis.com">Celonis</Link>, responsible for the the technical onboarding experience of our customers. Previously, I was a Software Consultant at <Link href="https://www.redhat.com">Red Hat</Link> leading customer projects to transform their IT automation practices.
         </p>
         <p>
-          My undergraduate degree is in <Link href="https://cs.vt.edu"><a>Computer Science</a></Link> from <Link href="https://eng.vt.edu"><a>Virginia Tech</a></Link>.
+          My undergraduate degree is in <Link href="https://cs.vt.edu">Computer Science</Link> from <Link href="https://eng.vt.edu">Virginia Tech</Link>.
           I am still involved with the college as a board member on the Young Alumni Council for the College of Engineering. I was appointed to a four-year term in 2024.
         </p>
         <p>
@@ -36,13 +36,13 @@ export default function Home({ allPostsData }) {
         <ul className={utilStyles.list}>
             <li className={utilStyles.listItem}>
               <Link href="https://peer.asee.org/40747">
-                <a>Integrating DevOps to Enhance Student Experience in an Undergraduate Research Project</a>
+                Integrating DevOps to Enhance Student Experience in an Undergraduate Research Project
               </Link>
               <small className={utilStyles.lightText}>
                 <text><br/>Ryan Gniadek, Godmar Back, Kirk Cameron, Margaret Ellis
                 <br/>ASEE 2022 Annual Conference{" "}
                 <Link href="/files/rgniadek_ASEE_presentation_2022.pdf">
-                <a>(Presentation)</a>
+                (Presentation)
                 </Link></text>
               </small>
             </li>
@@ -54,7 +54,7 @@ export default function Home({ allPostsData }) {
           {allPostsData.map(({ id, date, title }) => (
             <li className={utilStyles.listItem} key={id}>
               <Link href={`/posts/${id}`}>
-                <a>{title}</a>
+                {title}
               </Link>
               <br />
               <small className={utilStyles.lightText}>
