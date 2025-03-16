@@ -18,6 +18,22 @@ export default function Resume() {
       </section>
       <section className={utilStyles.headingMd}>
         <h2>
+          Solutions Architect -{" "}
+          <Link href="https://celonis.com/">
+            Celonis
+          </Link>
+        </h2>
+        <p>
+          <b>
+            <i>2025 - present</i>
+          </b>
+        </p>
+        <li>
+          Responsible for the technical onboarding experience of our customers
+        </li>
+      </section>
+      <section className={utilStyles.headingMd}>
+        <h2>
           Software Consultant -{" "}
           <Link href="https://redhat.com/">
             Red Hat
@@ -25,7 +41,7 @@ export default function Resume() {
         </h2>
         <p>
           <b>
-            <i>2023 - present</i>
+            <i>2023 - 2025</i>
           </b>
         </p>
         <li>
