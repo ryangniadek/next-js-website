@@ -17,8 +17,7 @@ export default function Home({ allPostsData }) {
           I like computer systems, infrastructure, DevOps, and software engineering.{" "}
         </p>
         <p>
-          I work as a Software Consultant at <Link href="https://www.redhat.com"><a>Red Hat</a></Link> helping clients with automation, infrastructure, and DevOps problems. As part of my job, I have also earned numerous <Link href="/certifications"><a>certifications</a></Link> in infrastructure and cloud technologies.
-          Using these skills, I lead customer projects to transform their IT automation practices.
+          I work as a Solutions Architect at <Link href="https://www.celonis.com"><a>Celonis</a></Link>, responsible for the the technical onboarding experience of our customers. Previously, I was a Software Consultant at <Link href="https://www.redhat.com"><a>Red Hat</a></Link> leading customer projects to transform their IT automation practices.
         </p>
         <p>
           My undergraduate degree is in <Link href="https://cs.vt.edu"><a>Computer Science</a></Link> from <Link href="https://eng.vt.edu"><a>Virginia Tech</a></Link>.
