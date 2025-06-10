@@ -13,9 +13,9 @@ export default function Home({ allPostsData }) {
       </Head>
       <section className={utilStyles.headingMd}>
         <h3>My name is Ryan Gniadek</h3>
-        <p> 
+        <p><i> 
           If you are looking for our wedding website, <Link href="/wedding">click here.</Link>
-        </p>
+        </i></p>
         <p>
           I like computer systems, infrastructure, DevOps, and software engineering.{" "}
         </p>
