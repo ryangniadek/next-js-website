@@ -20,9 +20,8 @@ export default function Projects() {
         <h2>CS 2104 Assignment: Getting Started with Containers</h2>
         <p>
           In conjunction with <Link href="https://people.cs.vt.edu/maellis1/">
-          Professor Margaret Ellis</Link>, I developed an assignment for
-          {" "}<Link href="https://cs.vt.edu/Undergraduate/courses/CS2104.html">CS
-          2104 (Problem Solving in CS)</Link> at Virginia Tech. The assignment
+          Professor Margaret Ellis</Link>, I developed an assignment for CS
+          2104 (Problem Solving in CS) at Virginia Tech. The assignment
           is designed to introduce students to containers, the Docker command
           line, and deploying cloud services.
         </p>
