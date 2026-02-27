@@ -1,3 +1,33 @@
+:root {
+  --bg: #ffffff;
+  --color: #000000;
+  --light-text: #999;
+  --border: #ccc;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #1a1a1a;
+    --color: #e8e8e8;
+    --light-text: #aaa;
+    --border: #555;
+  }
+}
+
+[data-theme="light"] {
+  --bg: #ffffff;
+  --color: #000000;
+  --light-text: #999;
+  --border: #ccc;
+}
+
+[data-theme="dark"] {
+  --bg: #1a1a1a;
+  --color: #e8e8e8;
+  --light-text: #aaa;
+  --border: #555;
+}
+
 html,
 body {
   padding: 0;
@@ -6,6 +36,8 @@ body {
     Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   line-height: 1.6;
   font-size: 18px;
+  background-color: var(--bg);
+  color: var(--color);
 }
 
 * {

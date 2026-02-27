@@ -4,6 +4,7 @@ import utilStyles from "../styles/utils.module.css";
 import Link from "next/link";
 import Image from 'next/image';
 import Menu from "./menu";
+import ThemeToggle from "./ThemeToggle";
 
 const name = "Ryan P. Gniadek";
 export const siteTitle = "Ryan Gniadek";
@@ -38,6 +39,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
         <Menu />
       </header>
       <main>{children}</main>
+      <ThemeToggle />
     </div>
   );
 }

@@ -48,6 +48,6 @@
   }
   
   .lightText {
-    color: #999;
+    color: var(--light-text);
   }
   
