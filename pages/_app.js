@@ -2,7 +2,6 @@ import '../styles/globals.css'
 import { MDXProvider } from '@mdx-js/react'
 import Head from 'next/head'
 import Link from 'next/link'
-import { useRouter } from 'next/router'
 import Layout from '../components/layout'
 import { siteTitle } from '../components/layout'
 
@@ -19,10 +18,9 @@ const components = {
 }
 
 export default function MyApp({ Component, pageProps }) {
-  const router = useRouter()
   return (
     <MDXProvider components={components}>
-      <Layout home={router.pathname === '/'}>
+      <Layout>
         <Component {...pageProps} />
       </Layout>
     </MDXProvider>
