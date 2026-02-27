@@ -4,7 +4,7 @@ import styles from "./menu.module.css";
 
 const links = [
   { href: "/", label: "Home" },
-  { href: "/blog", label: "Blog" },
+  // { href: "/blog", label: "Blog" },
   { href: "/projects", label: "Projects" },
   { href: "/experience", label: "Experience" },
   { href: "/contact", label: "Contact Me" },
