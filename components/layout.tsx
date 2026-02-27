@@ -8,7 +8,7 @@ import Menu from "./menu";
 const name = "Ryan P. Gniadek";
 export const siteTitle = "Ryan Gniadek";
 
-export default function Layout({ children }) {
+export default function Layout({ children }: { children: React.ReactNode }) {
   return (
     <div className={styles.container}>
       <Head>

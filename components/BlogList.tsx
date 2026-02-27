@@ -1,7 +1,8 @@
-import Link from 'next/link'
-import Date from './date'
+import Link from 'next/link';
+import Date from './date';
+import { PostData } from '../lib/posts';
 
-export default function BlogList({ posts }) {
+export default function BlogList({ posts }: { posts: PostData[] }) {
   return (
     <section>
       <h2>Blog</h2>
@@ -15,5 +16,5 @@ export default function BlogList({ posts }) {
         </div>
       ))}
     </section>
-  )
+  );
 }
