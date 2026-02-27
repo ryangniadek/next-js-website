@@ -1,0 +1,18 @@
+import { getSortedPostsData } from '../lib/posts'
+import BlogList from '../components/BlogList'
+import Head from 'next/head'
+import { siteTitle } from '../components/layout'
+
+export async function getStaticProps() {
+  const allPostsData = getSortedPostsData()
+  return { props: { allPostsData } }
+}
+
+export default function Blog({ children, allPostsData }) {
+  return (
+    <>
+      <Head><title>{`Blog | ${siteTitle}`}</title></Head>
+      <BlogList posts={allPostsData} />
+    </>
+  )
+}
